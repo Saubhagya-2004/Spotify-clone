@@ -236,11 +236,11 @@ a{
     justify-content: center;
     display: flex;
 }
-.line{
-    height: 20%;
+/* .line{
+    height: 10%;
     width: 90%;
     border-top: 1px solid #fff;
-}
+} */
 
 .Music-player{
     background-color: black;
@@ -248,4 +248,174 @@ a{
     position: fixed;
     height: 10%;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.album{
+    width: 25%;
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+}
+.picture{
+   margin-right: 1rem;
+   /* margin-left: 0.5rem; */
+   height: 3rem;
+   width: 3rem;
+   border-radius: 0.8rem;
+  
+}
+.picture:hover{
+    height: 3.5rem;
+}
+.name-1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+    height: 2rem;
+    background-color: #000;
+    
+}
+.name-2{
+    opacity: 0.5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.name-2:hover{
+    opacity: 1;
+}
+.album-img1{
+    height: 1.3rem;
+    margin-left: 1rem;
+    opacity: 0.85;
+}
+.album-img2{
+    height: 2.2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.9rem;
+    opacity: 0.75;
+}
+.album-img1:hover{
+    opacity: 1;
+    height: 1.4rem;
+    
+}
+
+.album-img2:hover{
+    opacity: 1;
+}
+.player{
+    width: 50%;
+    background-color: #000;
+    
+}
+.player-controls{
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-icon{
+    background-color: #000;
+    height: 1.25rem;
+    margin-right: 2rem;
+    opacity: 0.75;
+   
+}
+.player-icon:hover{
+    opacity: 1;
+}
+.icon{
+    opacity: 1;
+    height: 2.5rem;
+}
+.icon:hover{
+    height: 2.8rem;
+}
+.playback-bar{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 1rem;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+   
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    background-color: green;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd768;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 3rem;
+    
+    
+}
+.control-icon-1{
+    height: 2.4rem;
+    width: 1.7rem;
+    margin-right: 0.8rem;
+}
+.control-icon-2{
+    height: 2.9rem;
+    width: 2rem;
+    margin-right: 0.8rem;
+}
+.control-icon-3{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.8rem;
+}
+.control-icon-4{
+    height: 1.2rem;
+    width: 1.5rem;
+    margin-right: 0.8rem;
+   
+}
+.control-icon-5{
+    height: 3rem;
+    width: 2rem;
+    margin-right: 0.4rem;
+}
+.con{
+    opacity: 0.85;
+}
+.con:hover{
+    opacity: 1;
+    color: #fff;
+    height: 2.9rem;
+    width: 2.5rem;
+}
+.con-on{
+    opacity: 0.45;
+}
+.con-on:hover{
+    opacity: 1;
+    height: 1.5rem;
+    width: 1.6rem;
+}
+
